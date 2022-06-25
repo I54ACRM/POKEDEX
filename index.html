@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="./POKEDEX.css">
+     <script src="./pokeapi.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar-pokedex">
+            <div class=navbar-left>
+                <div>
+                    <a href="./index.html">
+                        <img src="./Pokeball.webp" id="pokeball-icon" alt="">
+                    </a>
+                </div>
+                <div>
+                    <button class="pokemon">
+                        <a href="https://www.pokemon.com/el/pokedex/">POKÉMON</a>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar-central">
+                <button id="search-button">
+                    <img class="search" src="./Search.png" alt="">
+                </button>
+                <input oninput="search()" id="search-input" class="finder" placeholder= "BUSCAR POKEMON POR NOMBRE O ID">
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="image"></div>
+        <div id="caracteristicas"></div>
+    </section>
+    <script src="./POKEDEX.js"></script>
+</body>
+</html>

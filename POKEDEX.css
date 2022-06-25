@@ -1,0 +1,89 @@
+body{
+    background-color: #334ea3;
+    background-image: url(./Pokedex\ IMG.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 120px;
+}
+#navbar-pokedex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-left{
+    display: flex;
+    justify-content: flex-start;
+}
+#pokeball-icon{
+    height: 45px;
+    width: 45px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.pokemon{
+    background-color: rgb(25, 78, 193);
+    font-size: 15.5px;
+    border-radius: 20px;
+    border: 1px solid rgb(42, 17, 166);
+    margin-top: 12px;
+    height: 45px;
+    width: 100px;
+}
+.pokemon a{
+    color: #FFCC01;
+    text-decoration: inherit;
+    font-weight: bold;
+}
+.navbar-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(42, 17, 166);
+    background-color: rgb(187, 218, 248);
+    height: 25px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.search{
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+#search-button{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    height: 33px;
+}
+.finder{
+    width: 100%;
+    height: 31px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#image{
+    position: relative;
+    left: 400px;
+    top: 250px;
+}
+#image404{
+    height:225px;
+}
+#caracteristicas{
+    font-size: medium;
+    position: relative;
+    left: 930px;
+    top: 70px;
+    color: cornsilk;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
